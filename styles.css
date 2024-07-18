@@ -16,15 +16,6 @@ body {
 
 }
 
-.btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid white;
-  border-radius: 20%;
-}
-
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -46,6 +37,27 @@ body {
   background-color: #FEB800;
 }
 
+@media (min-width : 319px){
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 10px solid white;
+    border-radius: 20%;
+  }
+}
+
+@media (min-width : 1200px){
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid white;
+    border-radius: 20%;
+  }
+}
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
