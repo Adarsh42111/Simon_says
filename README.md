@@ -26,18 +26,18 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository:**
   
-    git clone https://github.com/yourusername/simon-says-game.git
-
-2. **Open the project folder:**
+    git clone https://github.com/Adarsh42111/Simon_says.git
+   
+3. **Open the project folder:**
 
     cd simon-says-game
 
-3. **Open the `index.html` file in your browser:**
+4. **Open the `index.html` file in your browser:**
 
 
 ## How to Play
 
-1. Click anny key of the keyboard or the "Start Game" button to begin.
+1. Click any key of the keyboard or the "Start Game" button to begin.
 2. Watch the sequence of colors displayed by the game.
 3. Repeat the sequence by clicking the color buttons in the same order.
 4. Each round, the sequence will get longer.
