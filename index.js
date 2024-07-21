@@ -55,6 +55,8 @@ function startGame() {
 // Start game on keypress
 $(document).on("keypress",function(){
     startGame();
+    $("h2").hide();
+    $(".grey").hide();  
 });
 
 // Start game on button click for mobile users
