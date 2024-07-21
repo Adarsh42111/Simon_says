@@ -44,12 +44,28 @@ function animatePress(currentColor){
     },100);
 }
 
-$(document).on("keypress",function(){
-    if(!started){
-        $("#level-title").text("Level "+level);
+function startGame() {
+    if (!started) {
+        $("#level-title").text("Level " + level);
         nextSequence();
-        started= true;
+        started = true;
     }
+}
+
+// Start game on keypress
+$(document).on("keypress",function(){
+    startGame();
+});
+
+// Start game on button click for mobile users
+$(".btn_click").on("click", function () {
+    $("#grey").addClass("pressed");
+    setTimeout(function(){
+        $(".grey").removeClass("pressed");
+    },100);
+    startGame();
+    $("h2").hide();
+    $(".grey").hide();    
 });
 
 function checkAnswer(currentLevel) {
@@ -82,7 +98,6 @@ function checkAnswer(currentLevel) {
     }
 
 }
-
 
 function startOver(){
     level=0;
