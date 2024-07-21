@@ -6,6 +6,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
+  /* margin:  5%; */
   color: #FEF2BF;
 }
 
@@ -37,6 +38,30 @@ body {
   background-color: #FEB800;
 }
 
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+h2{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color : #737373;
+}
+
+.grey{
+  margin: 25px;
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  border: 5px solid white;
+  border-radius: 20%;
+  background-color: #737373;
+
+  font-size: 1rem;
+  color: #F14F21;
+}
+
 @media (min-width : 319px){
   .btn {
     margin: 25px;
@@ -57,8 +82,4 @@ body {
     border: 10px solid white;
     border-radius: 20%;
   }
-}
-.pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
 }
